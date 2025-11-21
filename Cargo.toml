@@ -3,6 +3,18 @@ name = "rs-prom2json"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the prometheus text to json."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-prom2json"
+homepage = "https://github.com/takanoriyanagitani/rs-prom2json"
+documentation = "https://docs.rs/rs-prom2json/latest"
+keywords = ["prometheus", "json", "convert"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"prom2json",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
